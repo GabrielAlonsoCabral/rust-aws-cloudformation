@@ -22,7 +22,7 @@ $ cd rust-aws-cloudformation
 $ cargo run --bin create-env
 
 # Find for a variable in Cloudformation Outputs
-$ cargo run --bin find-env --  --stage dev --name NameToFind
+$ cargo run --bin find-env --  --stage StageToFind --name NameToFind
 ```
 
 
@@ -39,5 +39,5 @@ $ cargo build --release
 $ ./target/release/create-env
 
 # Find for a variable in Cloudformation Outputs
-$ ./target/release/find-env --stage dev --name NameToFind
+$ ./target/release/find-env --stage StageToFind --name NameToFind
 ```
