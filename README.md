@@ -39,5 +39,5 @@ $ cargo build --release
 $ ./target/release/create-env
 
 # Find for a variable in Cloudformation Outputs
-$ ./target/release/find-env --stage dev --name CommerceRestUrl  
+$ ./target/release/find-env --stage dev --name NameToFind
 ```
