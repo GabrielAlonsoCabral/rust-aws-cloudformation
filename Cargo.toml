@@ -1,0 +1,20 @@
+[package]
+name = "aws-cloudformation"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+aws-config = "0.54.1"
+aws-sdk-cloudformation = "0.24.0"
+structopt = "0.3.26"
+tokio = { version = "1", features = ["full"] }
+
+[[bin]]
+name = "create-env"
+path = "src/create-env.rs"
+
+[[bin]]
+name = "find-env"
+path = "src/find-env.rs"
